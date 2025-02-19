@@ -35,7 +35,6 @@ header > nav{
   height: 60px;
   margin: 0 auto;
   display: flex;
-  /* flex-direction: row; 은 기본값이라 작성할 필요없음 */
   justify-content: space-between;
   align-items: center;
   letter-spacing: 7px;
@@ -64,17 +63,7 @@ header > .main-txt > p{
   font-size: 4.5rem;
   bottom: 300px;
   left: 100px;
-  /* line-height: 1; */
 }
-/* header > .main-txt > p:nth-child(2){
-  position: absolute;
-  bottom: 250px;
-  left: 100px;
-  background-color: #fff;
-  color: #222;
-  padding: 8px 38px;
-  border-radius: 5px;
-} */
 header > .card-btn > .btn-white{
   position: absolute;
   bottom: 170px;
@@ -179,6 +168,7 @@ main > .card-four > .card-txt > p{
   font-size: 50px;
 }
 
+/* footer 영역 */
 footer > ul{
   display: flex;
   justify-content: center;

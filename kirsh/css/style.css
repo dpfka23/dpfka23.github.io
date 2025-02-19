@@ -92,8 +92,6 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-.gallery > ul > li{
-}
 .gallery li > .price{
   padding: 1rem;
 }

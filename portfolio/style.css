@@ -135,17 +135,24 @@ header > .h_txt > p{
 }
 
 /* section 2 영역 */
-#sec2 > .p1{
-  color: #B8DD12;
-  font-size: 1.8rem;
-}
 #sec2 {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   margin: 1.5rem 4rem;
 }
+#sec2 > .p1{
+  color: #B8DD12;
+  font-size: 1.8rem;
+}
 
 /* section 3 영역 */
+#sec3 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 4rem;
+}
 #sec3 > .p1{
   color: #B8DD12;
   font-size: 1.8rem;

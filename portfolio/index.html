@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>김예람 포트폴리오</title>
+    <title>Yeram's Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./sty.css"> -->
   </head>
   <body>
+
     <header>
-      <nav>
+      <nav class="bar">
         <a href="#"><img src="./images/header_img1.png" alt="logo_img"></a>
         <ul class="gnb">
           <li>About Me</li>
@@ -16,44 +18,57 @@
           <li>JS</li>
           <li>Contact</li>
         </ul>
-        <!-- <button class="ctt">CONTACT</button> -->
       </nav>
-      <div class="h_txt">
+      <!-- <a href="#"><i class="fa-solid fa-arrow-up"></i></a> -->
+      <div class="intro">
         <h1>Hello,<br>I'm Web Publisher</h1>
-        <a href="#"><img src="./images/header_img1.png" alt="keybord"></a>
+        <img src="./images/header_img1.png" alt="keybord">
         <p>2025ⓒ Kimyeram ALL RIGHTS RESERVED</p>
       </div>
     </header>
+    <!-- 스크롤 영역 -->
     <div class="wrap">
+      <!-- page 1 -->
       <div class="container">
-        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
-        <section id="sec1">     
-          <nav>
-            <p class="p1">(01) Publishing</p>
-            <ul class="menu">
-              <!-- <li><a href="#"></a>Intro</li> -->
-              <li><a href="All"></a>All</li>  
-              <li><a href="Clone"></a>Clone</li>
-              <li><a href="Practical"></a>Practical</li>
-            </ul>
-          </nav>
+        <p>(01) About Me</p>
+        <div class="about"></div>
       </div>
+      <!-- page 2 -->
       <div class="container">
+        <nav class="menu">
+          <p>(02) Publishing</p>
+          <ul>
+            <li><a href="All"></a>All</li>  
+            <li><a href="Clone"></a>Clone</li>
+            <li><a href="Practical"></a>Practical</li>
+          </ul>
+        </nav>
         <!-- 그리드 영역 -->
-        <div class="grid-container">
+        <div class="grid-box">
           <div class="grid-item">1</div>
           <div class="grid-item">2</div>
           <div class="grid-item">3</div>
           <div class="grid-item">4</div>
           <div class="grid-item">5</div>
           <div class="grid-item">6</div>
-          <div class="grid-item">7</div>
+          <!-- <div class="grid-item">7</div>
           <div class="grid-item">8</div>
-          <div class="grid-item">9</div>
+          <div class="grid-item">9</div> -->
+        </div>
+      </div>
+      <!-- page 3 -->
+      <div class="container">
+        <p>(03) JS</p>
+      </div>
+      <!-- page 4 -->
+      <div class="container">
+        <p>(04) Contact</p>
+        <div>
+          <p>웹퍼블리셔</p>
+          <p class="mail"><a href="">yerama777@naver.com</a></p>
         </div>
       </div>
     </div>
-    <footer>
-    </footer> 
+    <!-- <script type="text" src="./scroll.js"></script> -->
   </body>
 </html>

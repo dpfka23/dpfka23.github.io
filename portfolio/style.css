@@ -89,10 +89,14 @@ header > .intro > p{
 .container > p{
   color: #fff;
   font-size: 2rem;
+  padding: 3rem 0;
 }
 
 /* page 1 영역 */
-.container > .about{
+/* .container:nth-child(1){
+  background-color: #888;
+} */
+.container:nth-child(1) > .about{
   width: 300px;
   height: 300px;
   margin: 4rem;
@@ -106,6 +110,9 @@ header > .intro > p{
 }
 
 /* page 2 */
+/* .container:nth-child(2){
+  background-color: #6f801b;
+} */
 .container:nth-child(2) > .menu{
   display: flex;
   justify-content: space-between;
@@ -113,6 +120,7 @@ header > .intro > p{
 .container:nth-child(2) > .menu > p{
   color: #fff;
   font-size: 2rem;
+  padding: 3rem 0;
 }
 .container:nth-child(2) > .menu > ul{
   display: flex;
@@ -158,6 +166,7 @@ header > .intro > p{
 /* page 3 */
 .container:nth-child(3) {
   height: 100vh;
+  /* background-color: #bbb; */
 }
 .container:nth-child(3) > .js-project{
   display: inline;
@@ -181,6 +190,7 @@ header > .intro > p{
 /* page 4 */
 .container:nth-child(4) {
   height: 100vh;
+  /* background-color: #777; */
 }
 .container:nth-child(4) > div{
   display: flex;

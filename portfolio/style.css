@@ -36,7 +36,6 @@ header > .bar > .gnb{
   top: 0;
   right: 0;
   margin: 2rem;
-
   z-index: 2;
 }
 header > .bar > .gnb > li{
@@ -58,9 +57,9 @@ header > .intro{
 }
 header > .intro > h1{
   color: #B8DD12;
-  font-size: 6.5rem;
+  font-size: 7rem;
   justify-content: left;
-  /* margin: 2rem; */
+  margin: 2rem;
 }
 header > .intro > img{
   width: 1000px;
@@ -93,42 +92,25 @@ header > .intro > p{
 }
 
 /* page 1 영역 */
-/* .container:nth-child(1){
-  background-color: #888;
-} */
-.container:nth-child(1) > .about{
-  width: 300px;
-  height: 300px;
-  margin: 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-image: url(./images/로그인.JPG);
-  background-size: cover;
-}
-
-/* page 2 */
 /* .container:nth-child(2){
   background-color: #6f801b;
 } */
-.container:nth-child(2) > .menu{
+.container:nth-child(1) > .menu{
   display: flex;
   justify-content: space-between;
 }
-.container:nth-child(2) > .menu > p{
+.container:nth-child(1) > .menu > p{
   color: #fff;
   font-size: 2rem;
   padding: 3rem 0;
 }
-.container:nth-child(2) > .menu > ul{
+.container:nth-child(1) > .menu > ul{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-.container:nth-child(2) > .menu > ul > li{
+.container:nth-child(1) > .menu > ul > li{
   padding: 8px 30px;
   /* margin: 1.5rem 0; */
   color: #fff;
@@ -136,7 +118,7 @@ header > .intro > p{
   border: 1px solid #fff;
   border-radius: 7px;
 }
-.container:nth-child(2) > .menu > ul > li:hover{
+.container:nth-child(1) > .menu > ul > li:hover{
   color: #B8DD12;
   border: 1px solid #B8DD12;
 }
@@ -145,56 +127,94 @@ header > .intro > p{
   display: grid;
   grid-template-columns: repeat(3, 2fr); /* 2개의 열 */
   gap: 16px; /* 아이템 사이 간격 */
-  margin: 3rem 0;
+  /* margin: 20px 0; */
   z-index: 2; /* 그리드가 배경 위에 표시되도록 설정 */
   overflow: hidden;
 }
 
 .grid-item {
   background-color: #ddd; /* 그리드 아이템 배경색 */
+  opacity: 0.8;
   padding: 160px;
   text-align: center;
   font-size: 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  position: relative;
 }
-
 .grid-item:hover {
   background-color: #bbb; /* hover 시 배경색 */
 }
+.grid-item:nth-child(1){
+  background-image: url(./images/넷플릭스\ 사이트.JPG);
+  background-size: cover;
+  /* place-items: center; */
+}
+.grid-item:nth-child(2){
+  background-image: url(./images/테슬라.JPG);
+  background-size: cover;
+}
+.grid-item:nth-child(3){
+  background-image: url(./images/에어비앤비.JPG);
+  background-size: cover;
+}
+.grid-item:nth-child(4){
+  background-image: url(./images/그리드.JPG);
+  background-size: cover;
+}
+.grid-item:nth-child(5){
+  background-image: url(./images/키르시\ 리디자인.JPG);
+  background-size: cover;
+}
+.grid-item:nth-child(6){
+  background-image: url(./images/모멘텀.JPG);
+  background-size: cover;
+}
+.grid-item > button{
+  padding: 7px 35px;
+  border: none;
+  border-radius: 7px;
+  background-color: #B8DD12;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  /* transform: translateX(-50%); */
+}
 
-/* page 3 */
-.container:nth-child(3) {
+/* page 2 */
+.container:nth-child(2) {
   height: 100vh;
   /* background-color: #bbb; */
 }
-.container:nth-child(3) > .js-project{
+.container:nth-child(2) > .js-project{
   display: inline;
 }
-.container:nth-child(3) > .js-project > p:nth-child(1){
+.container:nth-child(2) > .js-project > p:nth-child(1){
   margin-top: 1.5rem;
 }
-.container:nth-child(3) > .js-project > p{
+.container:nth-child(2) > .js-project > p{
   padding: 90px 60px;
   color: #fff;
   font-weight: 700;
   font-size: 3rem;
 }
-.container:nth-child(3) > .js-project > p:hover{
+.container:nth-child(2) > .js-project > p:hover{
   background-color: #6f801b;
   color: #1f1f1f;
   border-radius: 30px;
   transition: 0.3s;
 }
 
-/* page 4 */
-.container:nth-child(4) {
+/* page 3 */
+.container:nth-child(3) {
   height: 100vh;
   /* background-color: #777; */
 }
-.container:nth-child(4) > div{
+.container:nth-child(3) > div{
   display: flex;
 }
-.container:nth-child(4) > div > .mail > a{
+.container:nth-child(3) > div > .mail > a{
   color: #fff;
 }

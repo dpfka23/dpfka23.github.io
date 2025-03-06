@@ -150,14 +150,15 @@ header > .intro > p{
   background-size: cover;
   /* place-items: center; */
 }
-.grid-item:nth-child(1) > div > p{
+/* .grid-item:nth-child(1) > div > p{
   color: #fff;
+  background-color: #1f1f1f;
+  border-radius: 7px;
   font-size: 24px;
   position: absolute;
   top: 20px;
   left: 20px;
-  justify-content: left;
-}
+} */
 .grid-item:nth-child(2){
   background-image: url(./images/테슬라.JPG);
   background-size: cover;
@@ -178,11 +179,12 @@ header > .intro > p{
   background-image: url(./images/모멘텀.JPG);
   background-size: cover;
 }
-.grid-item > button{
+.grid-item > a{
   padding: 7px 35px;
   border: none;
   border-radius: 7px;
   background-color: #B8DD12;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   position: absolute;

@@ -204,17 +204,37 @@ header > .intro > p{
 .container:nth-child(2) > .js-project > li:nth-child(1){
   margin-top: 1.5rem;
 }
-.container:nth-child(2) > .js-project > li > p{
-  padding: 90px 60px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 3rem;
+.container:nth-child(2) > .js-project > li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .container:nth-child(2) > .js-project > li:hover{
   background-color: #6f801b;
   color: #1f1f1f;
   border-radius: 30px;
   transition: 0.3s;
+}
+.container:nth-child(2) > .js-project > li > p{
+  padding: 90px 60px;
+}
+.container:nth-child(2) > .js-project > li > p > a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.container:nth-child(2) > .js-project > li > .tag-box{
+  padding: 5px 10px;
+  margin-right: 3rem;
+  display: flex;
+  gap: 10px;
+}
+.container:nth-child(2) > .js-project > li > .tag-box > span{
+  color: #fff;
+  font-size: 28px;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;
 }
 
 /* page 3 */

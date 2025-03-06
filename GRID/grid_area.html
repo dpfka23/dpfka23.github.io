@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid-area</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        height: 100vh;
+        display: grid;
+        grid-template-areas: "head head head" "a main b" "f f f";
+      }
+      header{
+        grid-area: head;
+        background-color: aquamarine;
+      }
+      section{
+        grid-area: a;
+        background-color: blue;
+      }
+      main{
+        grid-area: main;
+        background-color: beige;
+      }
+      aside{
+        grid-area: b;
+        background-color: blueviolet;
+      }
+      footer{
+        grid-area: f;
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div> body에 직접 컨텐츠를 주는 것은 지양. div 태그 사용하기-->
+      <header>head</header>
+      <section>a</section>
+      <main>main</main>
+      <aside>b</aside>
+      <footer>f</footer>
+    <!-- </div> -->
+  </body>
+</html>

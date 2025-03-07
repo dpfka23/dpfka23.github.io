@@ -242,9 +242,49 @@ header > .intro > p{
   height: 100vh;
   /* background-color: #777; */
 }
-.container:nth-child(3) > div{
+.container:nth-child(3) > .contact{
   display: flex;
+  justify-content: space-between;
+  position: relative;
 }
-.container:nth-child(3) > div > .mail > a{
+.container:nth-child(3) > .contact > p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.container:nth-child(3) .photo{
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.container:nth-child(3) .profile{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
   color: #fff;
+  font-size: 28px;
+}
+.container:nth-child(3) .profile > .mail > a{
+  color: #fff;
+}
+.container:nth-child(3) .skill-box{
+  width: 700px;
+  height: auto;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container:nth-child(3) .skill-box > .skill > img{
+  width: 80px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
 }

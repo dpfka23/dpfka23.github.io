@@ -253,6 +253,13 @@ header > .intro > p{
   justify-content: center;
   /* align-items: center; */
 }
+.contact > h3{
+  color: #B8DD12;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  right: 44.7%;
+}
 .container:nth-child(3) .photo{
   width: 370px;
   height: 370px;
@@ -276,7 +283,7 @@ header > .intro > p{
   height: auto;
   position: absolute;
   top: 3rem;
-  right: 3rem;
+  right: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

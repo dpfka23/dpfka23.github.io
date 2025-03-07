@@ -254,8 +254,9 @@ header > .intro > p{
   /* align-items: center; */
 }
 .container:nth-child(3) .photo{
-  width: 400px;
-  height: 400px;
+  width: 370px;
+  height: 370px;
+  margin: 3rem;
   background-color: #fff;
   border-radius: 50%;
 }
@@ -271,7 +272,7 @@ header > .intro > p{
   color: #fff;
 }
 .container:nth-child(3) .skill-box{
-  width: 700px;
+  width: 800px;
   height: auto;
   position: absolute;
   top: 3rem;
@@ -285,6 +286,6 @@ header > .intro > p{
 .container:nth-child(3) .skill-box > .skill > img{
   width: 80px;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   border-radius: 30px;
 }
